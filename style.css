@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  margin: 0.5rem 1rem;
+}
+
+header h1 {
+  text-align: center;
+}
+
+aside {
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+aside ul li h4 {
+  cursor: pointer;
+  display: inline;
+  transition: 400ms;
+}
+
+aside ul li h4:hover {
+  color: greenyellow;
+}
+
+aside ul .infos.active {
+  visibility: visible;
+  display: inline;
+  text-indent: 1rem;
+}
+
+aside ul .infos {
+  visibility: hidden;
+  display: none;
+  transition: 400ms;
+}
